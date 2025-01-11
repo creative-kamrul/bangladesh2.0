@@ -19,6 +19,11 @@
     font-family: "Open Sans", serif;
     border-radius: 10px;
     border: none;
+    transition: all 1s ;
+  }
+  .btn-primery:hover{
+    background: #06b0f3;
+    cursor: pointer;
   }
   .title{
   font-family: "Open Sans", serif;
@@ -56,6 +61,7 @@ nav a .header-btn{
   font-family: "Open Sans", serif;
   border-radius: 10px;
   border-color: #006A50;
+  transition: all 1s;
 }
 nav a .header-btn:hover{
   background: #006A50;
@@ -105,6 +111,10 @@ nav a .header-btn:hover{
   border: 2px solid #cec5c5;
   border-radius: 20px;
   margin: 10px;
+  transition: all 1s;
+}
+.piller .item-one:hover{
+  background: #5490F5;
 }
 .piller .p-title{
   font-family: "Open Sans", serif;
@@ -139,6 +149,7 @@ nav a .header-btn:hover{
 .future .three{
   background: #F7EBCF;
 }
+
 .future .f-item .f-title{
   font-family: "Open Sans", serif;
   font-size: 20px;
@@ -242,12 +253,17 @@ nav a .header-btn:hover{
   display: flex;
   justify-content: space-between;
 }
+
 .donate .m-title{
   width: 200px;
   background: #ffffff;
   padding: 30px;
   border: 1 px solid #C6E4D6;
   border-radius: 10px;
+}
+.donate .m-title:hover{
+  background: #a7c7b8;
+  transition: all 1s ;
 }
 .donate .taka{
   width: 90%;
@@ -261,6 +277,7 @@ nav a .header-btn:hover{
   outline: 0;
   margin-left: 20px;
 }
+
 .d-btn {
   width: 100%;
   margin-top: 20px;
@@ -268,4 +285,39 @@ nav a .header-btn:hover{
 }
 .donate-btn{
   text-align: center;
+}
+/* =============newsletter=============== */
+.newsletter{
+  max-width: 1170px;
+  margin: 60px auto;
+  text-align: center;
+  background: #C6E4D6;
+  border-radius: 10px;
+}
+.newsletter .items-news{
+  padding: 80px 260px;
+ }
+ .problem{
+  border: none;
+  width: 400px;
+  border-radius: 5px;
+  padding: 13px 40px;
+  font-size: 24px;
+  outline: 0;
+  margin-left: 20px;
+ }
+ .s-btn{
+  background-color: #006A50;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 15px 20px;
+  font-family: "Open Sans", serif;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  transition: all 1s;
+ }
+
+ .s-btn:hover{
+  background: #06b0f3;
+  cursor: pointer;
 }
