@@ -300,7 +300,7 @@ nav a .header-btn:hover{
  .problem{
   border: none;
   width: 400px;
-  border-radius: 5px;
+  border-radius: 5px 0px 0px 5px;
   padding: 13px 40px;
   font-size: 24px;
   outline: 0;
@@ -320,4 +320,17 @@ nav a .header-btn:hover{
  .s-btn:hover{
   background: #06b0f3;
   cursor: pointer;
+}
+
+/* =============footer=============== */
+
+footer .last{
+  margin: 60px auto;
+  text-align: center;
+}
+footer .last .icon{
+  margin-top: 30px;
+}
+footer .last .icon a{
+  margin: 10px;
 }
